@@ -1,0 +1,9 @@
+@BetsApi_HostAddress = http://localhost:5041
+
+GET {{BetsApi_HostAddress}}/Users/
+Accept: application/json
+
+###
+GET {{BetssApi_HostAddress}}/Bets/
+Accept: application/json
+###
